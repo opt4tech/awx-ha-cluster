@@ -4,7 +4,7 @@ task: all
 dependencies:
   pkg:
     - epel-release
-    - python-pip
+    - python3-pip
     - docker-ce
     - bash-completion
     - bash-completion-extras

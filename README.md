@@ -24,10 +24,10 @@ After upgrading from previous version (__11.x__) remove memcached containers. Th
 ### Install
 
 ```bash
-ansible-playbook -i inventory/demo -e task=setup awx.yml --diff
-ansible-playbook -i inventory/demo -e task=run awx.yml --skip-tags awx --diff
-ansible-playbook -i inventory/demo -e task=run --tags awx --limit primary_awx_node awx.yml --diff
-ansible-playbook -i inventory/demo awx.yml --diff
+ansible-playbook -i inventory/local_awx_servers -e task=setup awx.yml --diff
+ansible-playbook -i inventory/local_awx_servers -e task=run awx.yml --skip-tags awx --diff
+ansible-playbook -i inventory/local_awx_servers -e task=run --tags awx --limit primary_awx_node awx.yml --diff
+ansible-playbook -i inventory/local_awx_servers awx.yml --diff
 ```
 
 ### Upgrade
