@@ -7,7 +7,7 @@ dependencies:
     - python3-pip
     - docker-ce
     - bash-completion
-    - bash-completion-extras
+    #- bash-completion-extras
   pip:
     - pip==9.0.3
     - setuptools==41.0.0
