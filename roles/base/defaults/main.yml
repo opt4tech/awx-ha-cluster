@@ -5,6 +5,7 @@ dependencies:
   pkg:
     - epel-release
     - python3-pip
+    - python2-pip
     - docker-ce
     - bash-completion
     #- bash-completion-extras
